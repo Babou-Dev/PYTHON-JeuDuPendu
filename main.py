@@ -43,5 +43,5 @@ while tries > 0:
         break
 
 if tries == 0:
-    print(Fore.RED + "-> C'est perdu :( \nTu n'as plus de tentatives")
+    print(Fore.RED + f"-> C'est perdu :( \nTu n'as plus de tentatives \nLe mot à deviner était : {word_to_guess}")
     print(Style.RESET_ALL)
